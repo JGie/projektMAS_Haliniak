@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfJednostkaOdziezowa xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JednostkaOdziezowa xsi:type="Koszulka">
+    <nazwa>Koszulka1</nazwa>
+    <rozmiar>M</rozmiar>
+    <cena>100</cena>
+    <dyscyplina>jogging</dyscyplina>
+    <numer>0</numer>
+  </JednostkaOdziezowa>
+  <JednostkaOdziezowa xsi:type="Koszulka">
+    <nazwa>Koszulka2</nazwa>
+    <rozmiar>L</rozmiar>
+    <cena>100</cena>
+    <dyscyplina>piłka nożna</dyscyplina>
+    <numer>13</numer>
+  </JednostkaOdziezowa>
+  <JednostkaOdziezowa xsi:type="Koszulka">
+    <nazwa>Koszulka3</nazwa>
+    <rozmiar>XL</rozmiar>
+    <cena>100</cena>
+    <dyscyplina>piłka nożna</dyscyplina>
+    <numer>10</numer>
+  </JednostkaOdziezowa>
+  <JednostkaOdziezowa xsi:type="Spodnie">
+    <nazwa>Spodnie1</nazwa>
+    <rozmiar>XL</rozmiar>
+    <cena>150</cena>
+    <dyscyplina>jogging</dyscyplina>
+    <dlugosc>80</dlugosc>
+  </JednostkaOdziezowa>
+  <JednostkaOdziezowa xsi:type="Spodnie">
+    <nazwa>Spodnie2</nazwa>
+    <rozmiar>XXL</rozmiar>
+    <cena>150</cena>
+    <dyscyplina>narciarstwo</dyscyplina>
+    <dlugosc>100</dlugosc>
+  </JednostkaOdziezowa>
+</ArrayOfJednostkaOdziezowa>

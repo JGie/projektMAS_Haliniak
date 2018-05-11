@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kierownik xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <pesel>92041300016</pesel>
+  <imie>Jakub</imie>
+  <nazwisko>Gie</nazwisko>
+  <adres>WWa</adres>
+  <numerTel>777</numerTel>
+  <wynagrodzenie>1000</wynagrodzenie>
+  <dataZatrudnienia>2010-01-01T00:00:00</dataZatrudnienia>
+  <login>k1</login>
+  <haslo>k1</haslo>
+</Kierownik>

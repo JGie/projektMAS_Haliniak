@@ -1,0 +1,19 @@
+﻿<Window x:Class="Haliniak.OknoGłówne"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Menu" Height="235" Width="343" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#FF409ADE" Icon="ikonaHaliniak.ico">
+    <Grid>
+        <Label Content="Haliniak" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.711,0.462" Margin="0" FontSize="20" FontWeight="Bold"/>
+        <Button Name="btnZamowienia" Content="Nowe zamówienia" HorizontalAlignment="Left" VerticalAlignment="Top" Width="141" Margin="10,42,0,0" Height="135" Click="btnZamowienia_Click" BorderThickness="1,0,1,1" IsHitTestVisible="True" FontWeight="Bold" TextOptions.TextHintingMode="Animated" VerticalContentAlignment="Top">
+            <Button.Background>
+                <ImageBrush ImageSource="Inne/wózek.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Name="btnRozpatrzone" Content="Historia zamówień" HorizontalAlignment="Left" VerticalAlignment="Top" Width="134" Margin="180,42,0,0" Height="135" FontWeight="Bold" TextOptions.TextHintingMode="Animated" HorizontalContentAlignment="Center" VerticalContentAlignment="Top" Click="btnRozpatrzone_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Inne/historia.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>
