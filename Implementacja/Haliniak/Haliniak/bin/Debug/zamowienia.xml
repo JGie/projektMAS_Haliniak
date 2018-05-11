@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfZamowienie xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Zamowienie>
+    <opis>odbiór osobisty</opis>
+    <status>Odrzucone</status>
+    <data>2015-06-16T00:00:00</data>
+    <cena>350</cena>
+    <listaOdziezy>
+      <JednostkaOdziezowa xsi:type="Spodnie">
+        <nazwa>Spodnie1</nazwa>
+        <rozmiar>XL</rozmiar>
+        <cena>150</cena>
+        <dyscyplina>jogging</dyscyplina>
+        <dlugosc>80</dlugosc>
+      </JednostkaOdziezowa>
+      <JednostkaOdziezowa xsi:type="Koszulka">
+        <nazwa>Koszulka2</nazwa>
+        <rozmiar>L</rozmiar>
+        <cena>100</cena>
+        <dyscyplina>piłka nożna</dyscyplina>
+        <numer>13</numer>
+      </JednostkaOdziezowa>
+      <JednostkaOdziezowa xsi:type="Koszulka">
+        <nazwa>Koszulka2</nazwa>
+        <rozmiar>L</rozmiar>
+        <cena>100</cena>
+        <dyscyplina>piłka nożna</dyscyplina>
+        <numer>13</numer>
+      </JednostkaOdziezowa>
+    </listaOdziezy>
+    <klient>
+      <nazwa>Klient1</nazwa>
+      <adres>Kraków</adres>
+      <numerTel>111-222-333</numerTel>
+    </klient>
+  </Zamowienie>
+  <Zamowienie>
+    <opis>za pobraniem</opis>
+    <status>Przyjęte</status>
+    <data>2015-06-17T00:00:00</data>
+    <cena>450</cena>
+    <listaOdziezy>
+      <JednostkaOdziezowa xsi:type="Koszulka">
+        <nazwa>Koszulka1</nazwa>
+        <rozmiar>M</rozmiar>
+        <cena>100</cena>
+        <dyscyplina>jogging</dyscyplina>
+        <numer>0</numer>
+      </JednostkaOdziezowa>
+      <JednostkaOdziezowa xsi:type="Koszulka">
+        <nazwa>Koszulka2</nazwa>
+        <rozmiar>L</rozmiar>
+        <cena>100</cena>
+        <dyscyplina>piłka nożna</dyscyplina>
+        <numer>13</numer>
+      </JednostkaOdziezowa>
+      <JednostkaOdziezowa xsi:type="Koszulka">
+        <nazwa>Koszulka3</nazwa>
+        <rozmiar>XL</rozmiar>
+        <cena>100</cena>
+        <dyscyplina>piłka nożna</dyscyplina>
+        <numer>10</numer>
+      </JednostkaOdziezowa>
+      <JednostkaOdziezowa xsi:type="Spodnie">
+        <nazwa>Spodnie2</nazwa>
+        <rozmiar>XXL</rozmiar>
+        <cena>150</cena>
+        <dyscyplina>narciarstwo</dyscyplina>
+        <dlugosc>100</dlugosc>
+      </JednostkaOdziezowa>
+    </listaOdziezy>
+    <klient>
+      <nazwa>Klient2</nazwa>
+      <adres>Warszawa</adres>
+      <numerTel>222-333-444</numerTel>
+    </klient>
+  </Zamowienie>
+  <Zamowienie>
+    <opis>za pobraniem</opis>
+    <status>Odrzucone</status>
+    <data>2015-06-18T00:00:00</data>
+    <cena>150</cena>
+    <listaOdziezy>
+      <JednostkaOdziezowa xsi:type="Bluza">
+        <nazwa>Bluza1</nazwa>
+        <rozmiar>XL</rozmiar>
+        <cena>150</cena>
+        <dyscyplina>Golf</dyscyplina>
+        <czyZkapturem>false</czyZkapturem>
+      </JednostkaOdziezowa>
+    </listaOdziezy>
+    <klient>
+      <nazwa>Klient3</nazwa>
+      <adres>Wrocław</adres>
+      <numerTel>333-444-555</numerTel>
+    </klient>
+  </Zamowienie>
+</ArrayOfZamowienie>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfJednostkaOdziezowa xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JednostkaOdziezowa xsi:type="Spodnie">
+    <nazwa>Spodnie1</nazwa>
+    <rozmiar>XL</rozmiar>
+    <cena>150</cena>
+    <dyscyplina>jogging</dyscyplina>
+    <dlugosc>80</dlugosc>
+  </JednostkaOdziezowa>
+</ArrayOfJednostkaOdziezowa>
